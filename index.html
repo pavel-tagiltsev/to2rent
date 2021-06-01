@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>to2rent</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="header__logo"><img src="images/logo.svg" alt="Логоти компании"></a>
+    </div>
+    <nav class="header__nav">
+      <div class="container">
+        <button class="header__btn-menu" type="button">
+          <img src="images/icon-menu.svg" alt="Иконка меню">
+        </button>
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#">О нас</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Дома</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Квартиры</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="promo">
+      <ul class="promo__slider">
+        <li class="promo__slider-item">
+          <img class="promo__slider-img" src="images/promo-slider.jpg" alt="Фотография из галереи">
+        </li>
+        <li class="promo__slider-item">
+          <img class="promo__slider-img" src="images/promo-slider.jpg" alt="Фотография из галереи">
+        </li>
+        <li class="promo__slider-item">
+          <img class="promo__slider-img" src="images/promo-slider.jpg" alt="Фотография из галереи">
+        </li>
+      </ul>
+      <div class="container">
+        <form class="search">
+          <p class="search__text">Поиск Аппартаментов</p>
+          <input class="search__input input" type="search" placeholder="Введите город">
+          <button class="search__btn btn" type="submit">Найти</button>
+        </form>
+      </div>
+    </section>
+    <section class="apartments">
+      <div class="apartments__wrapper">
+        <header class="container">
+          <h2 class="apartments__title">Самые популярные варианты</h2>
+        </header>
+      </div>
+      <div class="container">
+        <ul class="apartments__cards">
+          <li class="apartments__card">
+            <a class="apartments__card-link" href="#">
+              <img src="images/apartment-1.png" alt="Аппартаменты Москва">
+              <h3 class="apartments__card-title">Аппартаменты Москва</h3>
+              <p class="apartments__card-btn">детали</p>
+            </a>
+          </li>
+          <li class="apartments__card">
+            <a class="apartments__card-link" href="#">
+              <img src="images/apartment-2.png" alt="Аппартаменты Киев">
+              <h3 class="apartments__card-title">Аппартаменты Киев</h3>
+              <p class="apartments__card-btn">детали</p>
+            </a>
+          </li>
+          <li class="apartments__card">
+            <a class="apartments__card-link" href="#">
+              <img src="images/apartment-3.png" alt="Коттедж Modern Лос Анджелес">
+              <h3 class="apartments__card-title">Коттедж Modern Лос Анджелес</h3>
+              <p class="apartments__card-btn">детали</p>
+            </a>
+          </li>
+          <li class="apartments__card">
+            <a class="apartments__card-link" href="#">
+              <img src="images/apartment-4.png" alt="Коттедж Семейный Лондон">
+              <h3 class="apartments__card-title">Коттедж Семейный Лондон</h3>
+              <p class="apartments__card-btn">детали</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <h2 class="visually-hidden">Наши преимущества</h2>
+        <ul class="features__cards">
+          <li class="features__card">
+            <h3 class="features__card-title title-1">Мы экономим Ваше время и Ваши деньги</h3>
+            <p class="features__card-text">
+              Вы можете легко подобрать себе самую лучшую недвижимость для аренды на нашем сайте по выгодной цене. Наши менеджеры с удовольствием помогут Вам и ответят на все вопросы.
+            </p>
+            <a href="#" class="features__card-link">Подробнее</a>
+          </li>
+          <li class="features__card">
+            <h3 class="features__card-title title-2">Арендуйте лучшую недвижимость в крупных городах</h3>
+            <p class="features__card-text">
+              Наша база элитной недвижимости насчитывает более 5000 вариантов в крупных городах мира.Мы поможем Вам выбрать самую лучшую, также предоставим дополнительный сервис
+            </p>
+            <a href="#" class="features__card-link">Подробнее</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="reserve">
+      <div class="container">
+        <h2 class="visually-hidden">Бронь апартаментов</h2>
+        <h3 class="reserve__title">Коттедж Modern Лос Анджелес</h3>
+        <a class="reserve__link" href="#">Забронировать</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <section class="managers">
+          <h2 class="managers__title">Наши менеджеры</h2>
+          <ul class="managers__list">
+            <li class="managers__item">
+              <img src="images/ava-max.jpg" alt="Аватарка Макса">
+              <h3 class="managers__name">Макс 30 лет Москва</h3>
+              <a class="managers__link" href="#">Связаться</a>
+            </li>
+            <li class="managers__item">
+              <img src="images/ava-anna.jpg" alt="Фотография Анны">
+              <h3 class="managers__name">Анна 28 лет Киев</h3>
+              <a class="managers__link" href="#">Связаться</a>
+            </li>
+          </ul>
+        </section>
+        <section class="blog">
+          <h2 class="blog__title">Блог</h2>
+          <ul class="blog__list">
+            <li class="blog__item"><a href="#">Системы охраны и видеонаблюдения</a></li>
+            <li class="blog__item"><a href="#">Клубная недвижимость всегда в цене</a></li>
+            <li class="blog__item"><a href="#">Все плюсы от посуточной аренды квартир</a></li>
+            <li class="blog__item"><a href="#">Как выбрать жильё своей мечты в Киеве?</a></li>
+            <li class="blog__item"><a href="#">Топ 10 ВИП коттеджей Лос Анджелеса</a></li>
+            <li class="blog__item"><a href="#">Лучшие аппартаменты с панорамным видом</a></li>
+            <li class="blog__item"><a href="#">Дома для аренды на год в Майами</a></li>
+          </ul>
+        </section>
+        <section class="rewiews">
+          <h2 class="rewiwes__title">Отзывы</h2>
+          <blockquote class="rewiews__feedback">
+            <img src="images/rewiews-photo.jpg" alt="Фотография клиента">
+            <p class="rewiews__text">
+              Это лучший сервис по подбору аппартаментов.
+              Пользуюсь услугами To rent уже 5 лет.
+              Всегда идеально и именно то, что мне нужно.
+            </p>
+          </blockquote>
+          <a class="rewiews__link" href="#">Еще отзывы</a>
+        </section>
+      </div>
+      <section class="footer__bottom">
+        <ul class="footer__nav">
+          <li class="footer__item">
+            <a href="#">О нас</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Дома</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Аппартамент</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Отзывы</a>
+            <p class="footer__text"></p>
+          </li>
+          <li class="footer__item">
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+        <form class="footer__form">
+          <p class="footer__form-text">Связаться с нами</p>
+          <input class="footer__input input" type="text" placeholder="Задать вопрос">
+          <button class="footer__btn btn" type="submit">Отправить</button>
+        </form>
+      </section>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
